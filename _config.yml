@@ -70,6 +70,7 @@ url-pretty: "inventionate.de"  # eg. "deanattali.com/beautiful-jekyll"
 # Output options (more information on Jekyll's site)
 timezone: "Europe/Berlin"
 markdown: kramdown
+kramdown:
     smart_quotes:  ["rsaquo", "lsaquo", "raquo", "laquo"]
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
