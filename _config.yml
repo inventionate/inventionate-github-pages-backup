@@ -4,7 +4,7 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (http://username.github.io) then use these settings:
-url: "http://inventionate.github.io"
+url: "http://inventionate.de"
 baseurl: ""
 
 # If you are building a GitHub project page then use these settings:
@@ -23,11 +23,12 @@ description: Dokumentation meines Promotionsvorhabens.
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "https://www.ph-karlsruhe.de/institute/ph/ew/personen/fabian-mundt/"
+  Locate!: "http://rapps.ph-karlsruhe.de/users/fmundt/Locate/"
   Resources:
     - Academia: "https://cermat.academia.edu/FabianMundt"
     - GitHub: "https://github.com/inventionate"
     - SlideShare: "http://de.slideshare.net/Inventionate"
+  About Me: "https://www.ph-karlsruhe.de/institute/ph/ew/personen/fabian-mundt/"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
