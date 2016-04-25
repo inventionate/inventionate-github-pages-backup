@@ -7,6 +7,6 @@ bigimg: /img/path.jpg
 
 Und schon geht's los! Das interessante wird sein, ob wir auch eine Zitation schaffen. Es scheint so (Löw, M., 2001. Raumsoziologie, Frankfurt am Main: Suhrkamp). Wir sollten es ja auch nicht übertreiben, mit der Zitation. Schließlich soll das ein öffentliches "Tagebuch" sein.
 
-![][image-1]
+![Mit Beschreibung][image-1]
 
-[image-1]:	%7B%7B%20site.url%20%7D%7D/img/int.jpg
+[image-1]:	/img/int.jpg "Ein Test"
