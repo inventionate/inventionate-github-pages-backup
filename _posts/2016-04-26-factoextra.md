@@ -51,7 +51,7 @@ print(p)
 
 Seit kurzem existiert neben dem offiziellen [GitHub Repository][5] eine detaillierte Dokumentation: [http://www.sthda.com/english/rpkgs/factoextra/index.html][6]
 
-Die  GitHub Version von _factoextra_ lässt sich problemlos unter einer aktuellen R Version (3.2.4) installieren. Ab Mai 2016 steht das Paket auch über [CRAN][7] zur Verfügung.
+Die GitHub Version von _factoextra_ lässt sich problemlos unter einer aktuellen R Version (3.2.4) installieren. Ab Mai 2016 steht das Paket auch über [CRAN][7] zur Verfügung.
 
 [1]:	https://www.r-project.org
 [2]:	http://alboukadel.com
