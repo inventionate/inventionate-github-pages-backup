@@ -24,6 +24,7 @@ description: Dokumentation meines Promotionsvorhabens.
 # List of links in the navigation bar
 navbar-links:
   Locate!: "http://rapps.ph-karlsruhe.de/users/fmundt/Locate/"
+  factoextra: "http://www.sthda.com/english/rpkgs/factoextra/"
   Resources:
     - Academia: "https://cermat.academia.edu/FabianMundt"
     - GitHub: "https://github.com/inventionate"
