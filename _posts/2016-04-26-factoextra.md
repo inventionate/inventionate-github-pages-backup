@@ -61,5 +61,5 @@ Die  GitHub Version von _factoextra_ lässt sich problemlos unter einer aktuelle
 [6]:	http://www.sthda.com/english/rpkgs/factoextra/index.html#
 [7]:	https://www.cran.r-project.org
 
-[image-1]:	/img/fiz_mca-1.png "Wolke der Individuen"
+[image-1]:	/img/fviz_mca-1.png "Wolke der Individuen"
 [image-2]:	/img/fviz_mca-2.png "Konzentrationsellipsen der passiven Variablen"
