@@ -40,7 +40,7 @@ Mit wenigen Zeilen lassen sich Konzentrationsellipsen in Abhängigkeit von _pass
 
 ```r
 passive_variable <- as.factor(poison.active[, "Vomiting"])
-p <- fviz_mca_ind(res.mca, label="none", habillage = passive_variable,
+p <- fviz_mca_ind(res.mca, label = "none", habillage = passive_variable,
                   addEllipses = TRUE, ellipse.level = 0.95)
 print(p)
 ```
