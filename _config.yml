@@ -43,14 +43,14 @@ author:
   name: Fabian Mundt
   email: "mundt@ph-karlsruhe.de"
   github: inventionate
-  twitter: inventionate
+  #twitter: inventionate
 
 # Select which links to show in the footer
 footer-links-active:
   rss: true
   facebook: false
   email: true
-  twitter: true
+  twitter: false
   github: true
   linkedin: false
   stackoverflow: false
