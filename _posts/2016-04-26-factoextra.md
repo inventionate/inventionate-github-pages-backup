@@ -20,18 +20,32 @@ Sofern man [FactoMineR][4] zur Analyse verwendet sind alle Auswertungsstrategien
 Anhand der Visualisierung der Ergebnisse einer Multiplen Korrespondenzanalyse soll das Potenzial einer Visualisierung mit _factoextra_ illustriert werden.
 
 ```r
-library(factoextra)
+# Pakete laden
 library("FactoMineR")
+library("factoextra")
+
+# Daten laden
 data(poison)
+
 # MCA berechnen
 res.mca <- MCA(poison.active, graph=FALSE)
 
-# Graph of individuals
-
-# Default Plot
+# Wolke der Individuen
 fviz_mca_ind(res.mca, repel = TRUE, col.ind = "steelblue")
 ```
 
+![][image-1]
+
+Mit wenigen Zeilen lassen sich Konzentrationsellipsen in Abhängigkeit von _passiven Variablen_ plotten. Eine _Strukturierte Datenanalyse_ (Le Roux und Rouanet 2004), also die Interpretation der passiven Variablen als strukturierende Faktoren, ist auf einfache Art und Weise möglich.
+
+```r
+passive_variable <- as.factor(poison.active[, "Vomiting"])
+p <- fviz_mca_ind(res.mca, label="none", habillage = passive_variable,
+                  addEllipses = TRUE, ellipse.level = 0.95)
+print(p)
+```
+
+![][image-2]
 
 ## Umfangreiche Dokumentation
 
@@ -46,3 +60,6 @@ Die  GitHub Version von _factoextra_ lässt sich problemlos unter einer aktuelle
 [5]:	https://github.com/kassambara/factoextra
 [6]:	http://www.sthda.com/english/rpkgs/factoextra/index.html#
 [7]:	https://www.cran.r-project.org
+
+[image-1]:	/img/fiz_mca-1.png "Wolke der Individuen"
+[image-2]:	/img/fviz_mca-2.png "Konzentrationsellipsen der passiven Variablen"
