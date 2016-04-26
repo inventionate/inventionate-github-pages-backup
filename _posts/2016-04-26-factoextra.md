@@ -24,12 +24,12 @@ library(factoextra)
 library("FactoMineR")
 data(poison)
 # MCA berechnen
-res.mca \<- MCA(poison.active, graph=FALSE)
+res.mca <- MCA(poison.active, graph=FALSE)
 
 # Graph of individuals
 
 # Default Plot
-fviz\_mca\_ind(res.mca, repel = TRUE, col.ind = "steelblue")
+fviz_mca_ind(res.mca, repel = TRUE, col.ind = "steelblue")
 `
 
 
