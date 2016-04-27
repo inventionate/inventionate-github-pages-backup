@@ -3,10 +3,10 @@ layout: post
 title: factoextra
 subtitle: Visualisierung der Ergebnisse Geometrischer Datenanalysen
 bigimg:
-- "/img/fviz\_mfa-1.png" : "Wolke der Individuen – Multiple Faktorenanalyse"
-- "/img/fviz\_mfa-2.png" : "Konzentrationsellipsen – Multiple Faktorenanalyse"
-- "/img/fviz\_mfa-3.png" : "Wolke der Subindividuen – Multiple Faktorenanalyse"
-- "/img/fviz\_mfa-1.png" : "Konfidenzellipsen — Multiple Faktorenanalyse"
+- "/img/fviz_mfa-1.png" : "Wolke der Individuen – Multiple Faktorenanalyse"
+- "/img/fviz_mfa-2.png" : "Konzentrationsellipsen – Multiple Faktorenanalyse"
+- "/img/fviz_mfa-3.png" : "Wolke der Subindividuen – Multiple Faktorenanalyse"
+- "/img/fviz_mfa-1.png" : "Konfidenzellipsen — Multiple Faktorenanalyse"
 ---
 
 Bei _factoextra_ handelt es sich um ein [R Paket][1], das 2015 von [Alboukadel Kassambara][2] entwickelt wurde.  Das Paket ermöglicht es die Ergebnisse multivariater Analyseverfahren zu extrahieren und zu visualisieren. Bei den unterstützten Verfahren handelt es sich um geometrische Verfahren (Hauptkomponentenanalyse, Multiple Korrespondenzanalyse, Clusterverfahren usf.). Insofern ist _factoextra_ ein ideales Werkzeug um _Geometrische Datenanalysen_ durchzuführen. Es eignet sich dafür besonders, weil es zur Visualisierung der Ergebnisse auf Hadley Wickhams [ggplot2][3] zurückgreift. Die generierten sind daher einfach an die individuellen Bedürfnisse anpassbar.
@@ -19,31 +19,31 @@ Sofern man [FactoMineR][4] zur Analyse verwendet sind alle Auswertungsstrategien
 
 Anhand der Visualisierung der Ergebnisse einer Multiplen Korrespondenzanalyse soll das Potenzial einer Visualisierung mit _factoextra_ illustriert werden.
 
-\`\`\`r
-# Pakete laden
+`r
+Pakete laden
 library("FactoMineR")
 library("factoextra")
 
-# Daten laden
+Daten laden
 data(poison)
 
-# MCA berechnen
-res.mca \<- MCA(poison.active, graph=FALSE)
+MCA berechnen
+res.mca <- MCA(poison.active, graph=FALSE)
 
-# Wolke der Individuen
-fviz\_mca\_ind(res.mca, repel = TRUE, col.ind = "steelblue")
-\`\`\`
+Wolke der Individuen
+fviz_mca_ind(res.mca, repel = TRUE, col.ind = "steelblue")
+`
 
 ![][image-1]
 
 Mit wenigen Zeilen lassen sich Konzentrationsellipsen in Abhängigkeit von _passiven Variablen_ plotten. Eine _Strukturierte Datenanalyse_ (Le Roux und Rouanet 2004), also die Interpretation der passiven Variablen als strukturierende Faktoren, ist auf einfache Art und Weise möglich.
 
-\`\`\`r
-passive\_variable \<- as.factor(poison.active[, "Vomiting"])
-p \<- fviz\_mca\_ind(res.mca, label = "none", habillage = passive\_variable,
-	              addEllipses = TRUE, ellipse.level = 0.95)
+`r
+passive_variable <- as.factor(poison.active[, "Vomiting"])
+p <- fviz_mca_ind(res.mca, label = "none", habillage = passive_variable,
+  addEllipses = TRUE, ellipse.level = 0.95)
 print(p)
-\`\`\`
+`
 
 ![][image-2]
 
@@ -51,7 +51,7 @@ print(p)
 
 Seit kurzem existiert neben dem offiziellen [GitHub Repository][5] eine detaillierte Dokumentation: [http://www.sthda.com/english/rpkgs/factoextra/index.html][6]
 
-Die GitHub Version von _factoextra_ lässt sich problemlos unter einer aktuellen R Version (3.2.4) installieren. Ab Mai 2016 sofort steht das Paket auch über [CRAN][7] zur Verfügung.
+Die GitHub Version von _factoextra_ lässt sich problemlos unter einer aktuellen R Version (3.2.4) installieren. Ab sofort steht das Paket auch über [CRAN][7] zur Verfügung.
 
 [1]:	https://www.r-project.org
 [2]:	http://alboukadel.com
