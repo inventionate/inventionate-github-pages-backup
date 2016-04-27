@@ -20,17 +20,17 @@ Sofern man [FactoMineR][4] zur Analyse verwendet sind alle Auswertungsstrategien
 Anhand der Visualisierung der Ergebnisse einer Multiplen Korrespondenzanalyse soll das Potenzial einer Visualisierung mit _factoextra_ illustriert werden.
 
 ```r
-Pakete laden
+# Pakete laden
 library("FactoMineR")
 library("factoextra")
 
-Daten laden
+# Daten laden
 data(poison)
 
-MCA berechnen
+# MCA berechnen
 res.mca <- MCA(poison.active, graph=FALSE)
 
-Wolke der Individuen
+# Wolke der Individuen
 fviz_mca_ind(res.mca, repel = TRUE, col.ind = "steelblue")
 ```
 
