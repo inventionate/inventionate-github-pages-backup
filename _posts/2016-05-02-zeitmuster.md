@@ -9,7 +9,7 @@ Zur Erhebung und Analyse studentischer Zeitbudgets existieren bereits einige Unt
 
 Ausgehend von diesen punktuellen Einblicken in den hochschulübergreifenden Diskurs werde ich im Folgenden erste Ergebnisse der Zeit-Raum Studium Befragung an der PH Karlsruhe im Wintersemester 2015/2016 präsentieren. Nach einer methodischen Darstellung folgt die Diskussion von vier Zeitmuster, die rekonstruiert werden konnten.
 
-## Die Analysemethode 
+## Die Analysemethode
 
 Das Grundproblem der Aggregation von Zeitbudget-Daten besteht darin, dass diese in Abhängigkeit von zwei Eigenschaften geclustert werden müssen (vgl. Studer, M., 2014. WeightedCluster Library Manual). Sowohl von der Dauer einer Tätigkeit als auch ihrer kalendarischen Verortung. Ob man dienstags oder samstags vier Stunden am Stammtisch verbringt ist ein gewichtiger Unterschied, der in der Analyse berücksichtigt werden soll.
 
