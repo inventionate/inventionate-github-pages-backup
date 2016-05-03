@@ -1,6 +1,6 @@
 ---
 layout: post
-title: easytranscript.
+title: easytranscript
 subtitle: Kostenfreie Transkriptions-Software
 bigimg: /img/easytranscript.jpg
 ---
