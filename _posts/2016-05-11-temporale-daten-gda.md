@@ -17,4 +17,4 @@ Mein Lösungsansatz basiert darauf, die sogenannte _Hierarchische Multiple Fakto
 
 [1]:	https://github.com/inventionate/TimeSpaceAnalysis
 
-[image-1]:	/img/gda-trajectory.png "Trajektorie"
+[image-1]:	/img/trajectory-gda.jpg "Visualisierung vin Trajektorien"
