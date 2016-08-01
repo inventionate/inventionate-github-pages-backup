@@ -4,10 +4,10 @@ layout: post
 title: factoextra
 subtitle: Visualisierung der Ergebnisse Geometrischer Datenanalysen
 bigimg:
-- "/img/fviz\_mfa-1.png" : "Wolke der Individuen – Multiple Faktorenanalyse"
-- "/img/fviz\_mfa-2.png" : "Konzentrationsellipsen – Multiple Faktorenanalyse"
-- "/img/fviz\_mfa-3.png" : "Wolke der Subindividuen – Multiple Faktorenanalyse"
-- "/img/fviz\_mfa-1.png" : "Konfidenzellipsen — Multiple Faktorenanalyse"
+- /img/fviz\_mfa-1.png : "Wolke der Individuen – Multiple Faktorenanalyse"
+- /img/fviz\_mfa-2.png : "Konzentrationsellipsen – Multiple Faktorenanalyse"
+- /img/fviz\_mfa-3.png : "Wolke der Subindividuen – Multiple Faktorenanalyse"
+- /img/fviz\_mfa-1.png : "Konfidenzellipsen — Multiple Faktorenanalyse"
 ---
 
 Bei _factoextra_ handelt es sich um ein [R Paket]()[1](), das 2015 von [Alboukadel Kassambara]()[2]() entwickelt wurde.  Das Paket ermöglicht es die Ergebnisse multivariater Analyseverfahren zu extrahieren und zu visualisieren. Bei den unterstützten Verfahren handelt es sich um geometrische Verfahren (Hauptkomponentenanalyse, Multiple Korrespondenzanalyse, Clusterverfahren usf.). Insofern ist _factoextra_ ein ideales Werkzeug um _Geometrische Datenanalysen_ durchzuführen. Es eignet sich dafür besonders, weil es zur Visualisierung der Ergebnisse auf Hadley Wickhams [ggplot2]()[3]() zurückgreift. Die generierten sind daher einfach an die individuellen Bedürfnisse anpassbar.
