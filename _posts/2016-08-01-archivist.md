@@ -2,7 +2,7 @@
 layout: post
 title: Archivist
 subtitle: Offene und reproduzierbare Wissenschaft 
-bigimg: [http://r-addict.com/images/fulls/github\_R.jpg][1]
+bigimg: [http://r-addict.com/images/fulls/github_R.jpg][1]
 ---
 
 Ab sofort stehen alle Datensätze, die ich im Rahmen meiner Dissertation generiere online zur Verfügung: [https://github.com/inventionate/zrs-data-repository][2]. 
