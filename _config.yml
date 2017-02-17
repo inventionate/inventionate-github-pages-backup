@@ -26,9 +26,10 @@ navbar-links:
   Locate!: "http://rapps.ph-karlsruhe.de/users/fmundt/Locate/"
   factoextra: "http://www.sthda.com/english/rpkgs/factoextra/"
   Ressourcen:
-    - Academia: "https://cermat.academia.edu/FabianMundt"
+    - ResearchGate: "https://www.researchgate.net/profile/Fabian_Mundt"
     - GitHub: "https://github.com/inventionate"
     - SlideShare: "http://de.slideshare.net/Inventionate"
+    - Academia: "https://cermat.academia.edu/FabianMundt"
   Über mich: "https://www.ph-karlsruhe.de/institute/ph/ew/personen/fabian-mundt/"
 
 # Image to show in the navigation bar - image must be a square (width = height)
